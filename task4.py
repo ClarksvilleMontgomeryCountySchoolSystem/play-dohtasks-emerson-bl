@@ -1,38 +1,40 @@
-
 """
 ANSWER BOX - Copy the strings you need:
 
-"standing up or flopped down?"
-") Keep it round.\n"
-") Attach two pieces using {color2} hanging downward.\n"
-") Name this creation: "Dog""
+"long body or round body?"
+") Add a small bump using {color2} to the back.\n"
 ") Roll a smaller ball using {color1} for the head.\n"
-"hot dog or round like a ball?"
-") Roll a ball using {color1} for the body.\n"
-") Attach two pointed pieces using {color2} upright.\n"
-") Attach the head to the body.\n"
-") Add four legs using {color1}, a small tail using {color2}, two eyes, and a nose.\n"
-") Stretch it out.\n"
+") Keep it as a ball.\n"
+"long tail or short tail?"
+") Roll a ball using {color1}.\n"
+") Add four small legs to the bottom using {color1}.\n"
+") Roll a thin rope using {color2} and attach to the back.\n"
+") Name this creation: "Mouse""
+") Roll the ball into an egg shape.\n"
+") Add two dots for eyes and a tiny nose.\n"
+") Attach the head to one end of the body.\n"
 """
 
 def main():
-    color1 = "pink"
-    color2 = "purple"
-    print(f"1) Roll a ball using {color1} for the body.\n")
-    choice1 = input("hot dog or round like a ball? ")
-    if choice1 == "hot dog":
-        print("2) Stretch it out.\n")
+    color1 = "gray"
+    color2 = "pink"
+    print(f"1) Roll a ball using {color1}.\n")
+    choice1 = input("long body or round body? ")
+    # CAUTION: You must include the word "body" when checking!
+    if choice1 == "long body":
+        print("2) Roll the ball into an egg shape.\n")
     else:
-        print("2) Keep it round.\n")
+        print("2) Keep it as a ball.\n")
     print(f"3) Roll a smaller ball using {color1} for the head.\n")
-    print("4) Attach the head to the body.\n")
-    choice2 = input("standing up or flopped down? ")
-    if choice2 == "standing up":
-        print("5) Attach two pointed pieces using Color 2 upright.\n")
+    print("4) Attach the head to one end of the body.\n")
+    choice2 = input("long tail or short tail? ")
+    if choice2 == "long tail":
+        print(f"5) Roll a thin rope using {color2} and attach to the back.\n")
     else:
-        print("5) Attach two pieces using Color 2 hanging downward.\n")
-    print(f"6) Add four legs using {color1}, a small tail using {color2}, two eyes, and a nose.\n")
-    print('Name this creation: "Dog"')
+        print(f"5) Add a small bump using {color2} to the back.\n")
+    print(f"6) Add four small legs to the bottom using {color1}.\n")
+    print("7) Add two dots for eyes and a tiny nose.\n")
+    print('8) Name this creation: "Mouse"')
 
 
 if __name__ == "__main__":
