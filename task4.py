@@ -1,4 +1,22 @@
-color1 = "pink"
+
+"""
+ANSWER BOX - Copy the strings you need:
+
+"standing up or flopped down?"
+") Keep it round.\n"
+") Attach two pieces using {color2} hanging downward.\n"
+") Name this creation: "Dog""
+") Roll a smaller ball using {color1} for the head.\n"
+"hot dog or round like a ball?"
+") Roll a ball using {color1} for the body.\n"
+") Attach two pointed pieces using {color2} upright.\n"
+") Attach the head to the body.\n"
+") Add four legs using {color1}, a small tail using {color2}, two eyes, and a nose.\n"
+") Stretch it out.\n"
+"""
+
+def main():
+    color1 = "pink"
     color2 = "purple"
     print(f"1) Roll a ball using {color1} for the body.\n")
     choice1 = input("hot dog or round like a ball? ")
@@ -15,3 +33,7 @@ color1 = "pink"
         print("5) Attach two pieces using Color 2 hanging downward.\n")
     print(f"6) Add four legs using {color1}, a small tail using {color2}, two eyes, and a nose.\n")
     print('Name this creation: "Dog"')
+
+
+if __name__ == "__main__":
+    main()
