@@ -7,7 +7,7 @@ color1 = "pruple"
     elif choice1 == "2": # elif is a second check only if the first check fails.
         print("2) Form the ball into an egg shape.\n")
     else: # else runs if all previous checks fail.
-        print("2) Keep it round.")
+        print("2) Keep it round.\n")
     print("3) Use {color2} to roll two thin ropes.\n")
     choice2 = input("A or B? ")
     # Use == to check the User's choice.
@@ -18,5 +18,5 @@ color1 = "pruple"
     else:
         print("4) Use the ropes to make stripes.\n")
     print("5) Add two tiny dots for eyes on the front.\n")
-    choice3 = "Seal"
+    choice3 == input("Seal")
     print(f'6) Write "{choice3}" on the name card.')
