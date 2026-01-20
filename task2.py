@@ -19,7 +19,7 @@ def main():
     else:
         print("4) Use the ropes to make stripes.\n")
     print("5) Add two tiny dots for eyes on the front.\n")
-    choice3 == input()
+    choice3 = input()
     print(f'6) Write "{choice3}" on the name card.')
 
 if __name__ == "__main__":
