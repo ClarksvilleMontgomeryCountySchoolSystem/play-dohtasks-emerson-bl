@@ -1,5 +1,5 @@
 def main():
-    color1 = "purple"
+    color1 = "pruple"
     color2 = "red"
     print(f"1) Use {color2} to roll a ball.\n")
     choice1 = input("1, 2, or 3? ")
@@ -9,7 +9,7 @@ def main():
         print("2) Form the ball into an egg shape.\n")
     else: # else runs if all previous checks fail.
         print("2) Keep it round.\n")
-    print("3) Use {color2} to roll two thin ropes.\n")
+    print(f"3) Use {color2} to roll two thin ropes.\n")
     choice2 = input("A or B? ")
     # Use == to check the User's choice.
     # Use the correct string.
@@ -19,7 +19,7 @@ def main():
     else:
         print("4) Use the ropes to make stripes.\n")
     print("5) Add two tiny dots for eyes on the front.\n")
-    choice3 = input()
+    choice3 == input()
     print(f'6) Write "{choice3}" on the name card.')
 
 if __name__ == "__main__":
